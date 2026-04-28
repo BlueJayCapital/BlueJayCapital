@@ -318,13 +318,6 @@ p { margin: 0 0 1em; }
   color: var(--blue-pale);
   margin-bottom: 28px;
 }
-.hero-eyebrow::before {
-  content: '';
-  display: block;
-  width: 24px;
-  height: 1px;
-  background: var(--blue-pale);
-}
 
 .hero h1 {
   color: #fff;
