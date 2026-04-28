@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Blue Jay Capital | Schedule a Consultation</title>
+  <meta name="description" content="Reach Blue Jay Capital to discuss your unsecured personal credit line needs. Speak directly with our managing partner." />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <a href="tel:+12675018182">267.501.8182</a>
+      <a href="mailto:Mark@bluejay.capital">Mark@bluejay.capital</a>
+      <span>Serving clients nationwide</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Blue Jay Capital home">
+        <img src="images/logo.svg" alt="Blue Jay Capital" style="height:160px; width:auto;" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="process.html">Our Process</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Apply Now</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-inner">
+        <span class="eyebrow" style="color:var(--blue-pale);">Let's Talk</span>
+        <h1>Contact Blue Jay Capital</h1>
+        <p>A 20-minute discovery call is the fastest way to see what's possible. Send a quick note and we'll reach out within one business day.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid reveal">
+
+        <div class="contact-info">
+          <span class="eyebrow">Direct Access</span>
+          <h3>Speak directly with our managing partner.</h3>
+          <p>Every inquiry is reviewed personally by Mark. No call centers, no intake assistants, no gatekeepers. Whether you're ready to start or just exploring, we'll give you a candid read on whether there's a fit worth pursuing.</p>
+
+          <ul>
+            <li>
+              <span class="label">Name</span>
+              <span>Mark<br/><span style="color: var(--text-pale); font-size: 0.85rem;">Managing Partner</span></span>
+            </li>
+            <li>
+              <span class="label">Phone</span>
+              <a href="tel:+12675018182">267.501.8182</a>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:Mark@bluejay.capital">Mark@bluejay.capital</a>
+            </li>
+            <li>
+              <span class="label">Service Area</span>
+              <span>All 50 states</span>
+            </li>
+            <li>
+              <span class="label">Hours</span>
+              <span>Monday – Friday, 9am – 6pm ET<br/><span style="color:var(--text-pale); font-size:0.88rem;">Evening &amp; weekend calls by appointment</span></span>
+            </li>
+          </ul>
+
+          <div class="contact-highlight" style="margin-top: 24px;">
+            <strong>Prefer to talk now?</strong> Call <a href="tel:+12675018182">267.501.8182</a>, Mark answers directly whenever possible, or you'll hear back the same business day.
+          </div>
+        </div>
+
+        <!--
+          CONTACT FORM
+          Pre-configured for Formspree. To activate:
+            1. Create a free account at https://formspree.io
+            2. Create a new form, set the destination to Mark@bluejay.capital
+            3. Replace FORMSPREE_ID below with your actual form ID (e.g. xyzleqok)
+          See README.txt for full instructions.
+        -->
+        <form class="contact-form" action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+          <div class="form-title">Send an Inquiry</div>
+          <input type="hidden" name="_subject" value="New Blue Jay Capital Inquiry" />
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full Name *</label>
+              <input id="name" name="name" type="text" required autocomplete="name" placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 000-0000" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address *</label>
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder="your@email.com" />
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="amount">Capital Amount</label>
+              <select id="amount" name="amount">
+                <option value="">Select range...</option>
+                <option>$100K – $250K</option>
+                <option>$250K – $500K</option>
+                <option>$500K – $1M</option>
+                <option>$1M+</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="timeline">Timeline</label>
+              <select id="timeline" name="timeline">
+                <option value="">Select timeline...</option>
+                <option>ASAP (within 30 days)</option>
+                <option>30 – 60 days</option>
+                <option>60 – 90 days</option>
+                <option>Exploring / no urgency</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">How Can We Help? *</label>
+            <textarea id="message" name="message" required placeholder="Tell us a little about your goals and what you'd like to discuss."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Inquiry</button>
+          <p style="font-size: 0.78rem; color: var(--text-pale); margin: 14px 0 0; text-align: center; line-height: 1.5;">Your information is confidential and will never be shared with third parties.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="Blue Jay Capital" style="height:160px; width:auto;" />
+          </a>
+          <p>Unsecured personal credit lines for high net worth individuals across America. Capital without collateral, structured, discreet, and fast.</p>
+        </div>
+        <div><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="process.html">Our Process</a></li><li><a href="insights.html">Insights</a></li></ul></div>
+        <div><h4>Company</h4><ul><li><a href="testimonials.html">Testimonials</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><a href="tel:+12675018182">267.501.8182</a></li><li><a href="mailto:Mark@bluejay.capital">Mark@bluejay.capital</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> Blue Jay Capital. All rights reserved.</span>
+        <span>Unsecured personal credit line advisory services. Not a lender. Results vary based on individual profile.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
